@@ -41,7 +41,7 @@ return <div className="card success" >
    {cartProducts.length !==0 &&  <div className='sum-cart'>
 
         <h6>Total items = {cartProducts.length}</h6> 
-        <h6>Total Amount ={sum}</h6> 
+        <h6>Total Amount = Rs {sum}</h6> 
         <hr/>
         <button  onClick ={handleOrder}className='btn btn-success'>Buy Now</button>
         
