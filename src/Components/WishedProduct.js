@@ -9,6 +9,7 @@ function WishedProduct({wish,img,name,description,price,wishlist,setWishlist,car
             if(wishedItem.id !== wish.id){
                 return wishlist
             }
+            return false
         }))
       }
 
@@ -18,6 +19,7 @@ function WishedProduct({wish,img,name,description,price,wishlist,setWishlist,car
         if(wishedItem.id !== wish.id){
             return wishlist
         }
+        return false
     }))
       
     } 

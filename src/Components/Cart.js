@@ -8,6 +8,7 @@ function Cart({cart,img,name,description,price,cartProducts, setCartProducts}) {
             if(cartProduct.id !== cart.id){
                 return cartProducts
             }
+            return false
         }))
       }
         

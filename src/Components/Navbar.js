@@ -6,7 +6,7 @@ function Navbar({cartProducts,wishlist}) {
   return (
     <div className='div-nav fixed-top'>
         <nav className='navbar '>
-            <a className='nav-brand'>Tabeena's e-com App</a>
+            <a  href='/' className='nav-brand'>Tabeena's e-com App</a>
             <div className='navbar-nav'>
                 <NavLink to= '/' className='nav-item'>Products</NavLink>
                 <NavLink to='/wishlist' className='nav-item'>Wishlist <i className="fa-solid fa-heart"></i><sup>{wishlist.length}</sup></NavLink>
