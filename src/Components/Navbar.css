@@ -1,0 +1,59 @@
+.div-nav{
+    width: 100%;
+    height: 60px;
+    background-color: #f1faee;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar-nav{
+    display: inline;
+    
+}
+
+.navbar-nav a{
+    margin-right: 40px;
+    text-decoration: none ;
+    font-size: 20px;
+}
+.nav-brand{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover{
+    color: #9b2226;
+}
+
+sup{
+    color: #d62828;
+    font-weight: bold;
+}
+
+@media screen and (max-width:640px){
+    .nav-brand{
+        font-size: 16px;
+    }
+
+    .navbar-nav a{
+        font-size:14px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .nav-brand{
+        font-size: 12px;
+    }
+
+    .navbar-nav a{
+        font-size:11px;
+        margin-right: 5px;
+    }
+}

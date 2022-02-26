@@ -1,0 +1,12 @@
+.btn{
+    display: inline;
+    margin-left: 3px;
+}
+
+.card{
+    margin-top: 20px;
+    border-radius: 22px;
+}
+.card-img-top{
+    border-radius: 22px;
+}
