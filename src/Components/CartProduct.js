@@ -8,6 +8,7 @@ function CartProduct({cartProducts,setCartProducts,sum}) {
   const navigate =useNavigate()
   const handleOrder = () => {
     setSubmitted(true)
+    setCartProducts([])
   }
 
   const goBack = () =>{
